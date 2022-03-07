@@ -12,5 +12,6 @@
 	                    
 	         
 	        <!-- TestBean t=new TestBean();  -->
-	        <bean id="test1" class="kr.hs.study.beans.TestBean"/>
+	        <bean id="t1" class="kr.hs.study.beans.TestBean"/>
+	        
 </beans>
