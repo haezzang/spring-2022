@@ -24,6 +24,7 @@ public class MainClass {
 		TestBean1 obj3=ctx.getBean("new", TestBean1.class);
 		System.out.println(obj3);
 		
+
 		ctx.close();
 	}
 
