@@ -11,7 +11,12 @@
 	                    http://www.springframework.org/schema/aop/spring-aop.xsd">
 	                    
 	         
-	        <!-- TestBean t=new TestBean();  -->
-	        <bean id="t1" class="kr.hs.study.beans.TestBean"/>
+	    
+	        	<context:annotation-config/>
+	 <bean id="t1" class="kr.hs.study.beans.TestBean"/>
+	<bean id="xml1" class="kr.hs.study.beans.TestBean1">
+	<property name="data1" value="100"/>
+	</bean>
+
 	        
 </beans>
