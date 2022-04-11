@@ -14,10 +14,8 @@ public class MainClass {
 		
 		//ClassPathXmlApplicationContext ctx= new ClassPathXmlApplicationContext("kr/hs/study/config/config.xml");
 		AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext(BeanConfigClass.class);
-		Test t1 = ctx.getBean("java1", Test.class);
-//		t1.getP1().eat();
-//		t1.getP2().eat();
-			
+		Test t1 = ctx.getBean("t1", Test.class);
+
 
 	}
 }

@@ -1,5 +1,8 @@
 package kr.hs.study.beans;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Person {
 	String name;
 	int age;
