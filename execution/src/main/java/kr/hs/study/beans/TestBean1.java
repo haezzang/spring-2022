@@ -21,6 +21,15 @@ public class TestBean1 {
 	}
 	
 	
+	public void method1(int a, String s) {
+		System.out.println("int 매개변수 String 매개변수 method1");
+	}
+	public void method1(int a, char c) {
+		System.out.println("모든 타입의 매개변수 2개");
+	}
+	public void method1(int a, int b, String c) {
+		System.out.println("모든 타입의 매개변수 0개이상");
+	}
 	
 	public void method2() {
 		System.out.println("테스트빈 메서드2 호출");

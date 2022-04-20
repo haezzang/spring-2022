@@ -10,11 +10,14 @@ public class MainClass {
 		// TODO Auto-generated method stub
 		ClassPathXmlApplicationContext ctx= new ClassPathXmlApplicationContext("kr/hs/study/config/config.xml");
 		TestBean1 obj=ctx.getBean("t1",TestBean1.class);
-		obj.method1();
-		obj.method2();
-		obj.method1(100);
-		obj.method1("ss");
+//		obj.method1();
+//		obj.method2();
+//		obj.method1(100);
+//		obj.method1("ss");
 		obj.method1(100,200);
+	obj.method1(100,"¤¤¤¤");
+		obj.method1(100,'c');
+		obj.method1();
 		ctx.close();
 
 	}
