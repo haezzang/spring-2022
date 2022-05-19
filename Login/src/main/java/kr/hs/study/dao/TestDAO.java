@@ -19,4 +19,6 @@ public class TestDAO {
 		db.update(sql,bean.getUserid(), bean.getUserpass(), bean.getUsername());
 	}
 	
+
+	
 }
